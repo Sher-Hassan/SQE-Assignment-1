@@ -24,6 +24,6 @@ public class BinarySearchTest {
 
     @Test
     void testNotFound() {
-        assertEquals(-1, bs.search(new int[]{1,2,3,4,5}, 11));
+        assertEquals(-1, bs.search(new int[]{1,2,3,4,5}, 10));
     }
 }
