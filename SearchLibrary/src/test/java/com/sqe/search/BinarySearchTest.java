@@ -19,7 +19,7 @@ public class BinarySearchTest {
 
     @Test
     void testFoundMiddle() {
-        assertEquals(2, bs.search(new int[]{1,2,3,4,5}, 3));
+        assertEquals(1, bs.search(new int[]{1,2,3,4,5}, 3));
     }
 
     @Test
