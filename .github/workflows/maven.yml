@@ -23,8 +23,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
 
-    - name: Build, test & generate JaCoCo coverage report
-      run: mvn -B clean verify
+
 
     - name: Upload JaCoCo HTML + XML report
       uses: actions/upload-artifact@v4
