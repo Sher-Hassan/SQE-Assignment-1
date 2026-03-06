@@ -34,7 +34,7 @@ public class LinearSearchTest {
 
     @Test
     void testFoundAtEnd() {
-        assertEquals(4, ls.search(new int[]{1, 2, 3, 4, 3}, 5));
+        assertEquals(4, ls.search(new int[]{1, 2, 3, 4, 3}, 1));
     }
 
     @Test
